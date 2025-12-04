@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "format": "prettier --write .",
     "lint": "eslint .",
+    "lint:css": "stylelint **/*.css",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,8 +21,13 @@
   "devDependencies": {
     "@eslint/js": "*",
     "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "eslint-plugin-react-refresh": "*",
-    "globals": "*"
+    "globals": "*",
+    "prettier": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*"
   }
 }
