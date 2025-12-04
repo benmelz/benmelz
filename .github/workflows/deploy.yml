@@ -21,8 +21,8 @@ jobs:
           node-version-file: .node-version
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - run: npx vite build
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: ./_site
+          path: ./dist
       - uses: actions/deploy-pages@v4

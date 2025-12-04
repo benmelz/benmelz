@@ -1,18 +1,33 @@
 {
-  "name": "benmelz-dot-com",
+  "name": "benmelz",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "eleventy",
-    "dev": "eleventy --serve",
-    "lint": "prettier --check .",
-    "format": "prettier --write ."
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:css": "stylelint **/*.css",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/open-sans": "*",
-    "@11ty/eleventy": "*"
+    "@vitejs/plugin-react": "*",
+    "react": "*",
+    "react-dom": "*",
+    "vite": "*"
   },
   "devDependencies": {
-    "prettier": "*"
+    "@eslint/js": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-react-refresh": "*",
+    "globals": "*",
+    "prettier": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*"
   }
 }
