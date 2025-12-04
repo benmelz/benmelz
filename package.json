@@ -1,0 +1,18 @@
+{
+  "name": "benmelz-dot-com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "*",
+    "@11ty/eleventy": "*"
+  },
+  "devDependencies": {
+    "prettier": "*"
+  }
+}

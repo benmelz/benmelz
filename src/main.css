@@ -1,0 +1,20 @@
+@import url("@fontsource/open-sans/300.css");
+@import url("@fontsource/open-sans/400.css");
+@import url("@fontsource/open-sans/500.css");
+@import url("@fontsource/open-sans/600.css");
+@import url("@fontsource/open-sans/700.css");
+@import url("@fontsource/open-sans/800.css");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #212529;
+  color: #dee2e6;
+  margin: 0;
+}
